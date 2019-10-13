@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Temperature Maps</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+    <script>
+      $(function(){
+        $("#topnav").load("../templates/navigation_documentation.html");
+      });
+    </script>
+  </head>
+  <body>
+  <div id="topnav"></div>
+
+  <div class="container-fluid col-md-8 pb-5">
+    <div class="card  mt-5">
+      <div class="text-center bg-dark text-light card-header">
+          <h1 class="text-center pt-2">
+            <a target="_blank" href="https://github.com/crhea93/AstronomyTools/tree/master/TemperatureMapPipeline">
+              Temperature Maps
+            </a>
+          </h1>
+        <p class="text-center col-md-10 mx-auto">
+          In order to better describe the temperature map algorithm, I created a pdf-document detailing the important steps
+          along with an example analysis. NOTE that I have yet to complete the documentation fully; however, the example
+          is complete!
+        </p>
+      </div>
+      <div class="card-body" >
+        <embed style="min-height: 750px" src="../files/Temperature_Map_Pipeline.pdf" type="application/pdf" width="100%" height="80%" />
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
